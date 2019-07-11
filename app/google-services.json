@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "951082583389",
+    "firebase_url": "https://i-a-app.firebaseio.com",
+    "project_id": "i-a-app",
+    "storage_bucket": "i-a-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951082583389:android:75e7be3eb406e721",
+        "android_client_info": {
+          "package_name": "com.esatic.nutricionapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "951082583389-p042u1mottqj0afa6mlednbpugqg3pda.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxmJerKHHMJ79_BvCN6yIhWzi9yrjG7F8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "951082583389-p042u1mottqj0afa6mlednbpugqg3pda.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
