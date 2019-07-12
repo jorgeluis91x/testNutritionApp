@@ -7,8 +7,14 @@
     <string name="find_objects_button">Find objects</string>
     <string name="title_activity_camera">CameraActivity</string>
 
-
+    <!-- Strings for nutrition app. -->
     <string name="app_name">nutricionApp</string>
+
+    <string name="entry_suggar_title">Libre de Azúcar</string>
+    <string name="entry_suggar_subtitle">Mira si tu producto es libre de azucar.</string>
+    <string name="entry_glutten_title">Libre de glutten</string>
+    <string name="entry_glutten_subtitle">Mira si tu producto es libre de glutten.</string>
+
 
     <string name="entry_java_title">Java</string>
     <string name="entry_java_subtitle">Run the MLKit Showcase written in Java.</string>

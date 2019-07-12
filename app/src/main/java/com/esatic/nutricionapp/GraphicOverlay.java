@@ -32,7 +32,6 @@ public class GraphicOverlay extends View {
     private int previewHeight;
     private float heightScaleFactor = 1.0f;
     private int facing = CameraCharacteristics.LENS_FACING_BACK;
-    private int mFacing = CameraSource.CAMERA_FACING_BACK;
     private Set<Graphic> graphics = new HashSet<>();
 
     /**

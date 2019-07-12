@@ -55,7 +55,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".LiveObjectDetectionActivity" />
-        <activity android:name=".code.Main2Activity"></activity>
+        <activity android:name=".code.Main2Activity" />
+        <activity android:name=".LiveBarcodeScanningActivity"></activity>
     </application>
 
 </manifest>

@@ -25,8 +25,8 @@ import androidx.recyclerview.widget.RecyclerView;
 public class EntryChoiceActivity extends AppCompatActivity {
 
     private enum EntryMode {
-        ENTRY_JAVA(R.string.entry_java_title, R.string.entry_java_subtitle),
-        ENTRY_KOTLIN(R.string.entry_kotlin_title, R.string.entry_kotlin_subtitle);
+        ENTRY_JAVA(R.string.entry_suggar_title, R.string.entry_suggar_subtitle),
+        ENTRY_KOTLIN(R.string.entry_glutten_title, R.string.entry_glutten_subtitle);
 
         private final int titleResId;
         private final int subtitleResId;

@@ -10,10 +10,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.esatic.nutricionapp.LiveBarcodeScanningActivity;
 import com.esatic.nutricionapp.LiveObjectDetectionActivity;
-import com.esatic.nutricionapp.MainActivity;
+
 import com.esatic.nutricionapp.R;
-import com.esatic.nutricionapp.code.Utils;
+
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -39,10 +40,8 @@ public class Main2Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
         AppCompatDelegate.setCompatVectorFromResourcesEnabled(true);
         setContentView(R.layout.activity_main2);
-
         RecyclerView modeRecyclerView = findViewById(R.id.mode_recycler_view);
         modeRecyclerView.setHasFixedSize(true);
         modeRecyclerView.setLayoutManager(new LinearLayoutManager(this));
@@ -120,9 +119,9 @@ public class Main2Activity extends AppCompatActivity {
                                 case ODT_STATIC:
                                     Utils.openImagePicker(activity);
                                     break;
-                               /* case BARCODE_LIVE:
+                                case BARCODE_LIVE:
                                     activity.startActivity(new Intent(activity, LiveBarcodeScanningActivity.class));
-                                    break;*/
+                                    break;
                             }
                         });
             }
