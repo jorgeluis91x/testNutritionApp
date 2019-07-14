@@ -10,9 +10,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.esatic.nutricionapp.LiveBarcodeScanningActivity;
-import com.esatic.nutricionapp.LiveObjectDetectionActivity;
-
 import com.esatic.nutricionapp.R;
 import com.esatic.nutricionapp.java.CameraRecognitionActivity;
 
@@ -115,13 +112,13 @@ public class Main2Activity extends AppCompatActivity {
                             Activity activity = Main2Activity.this;
                             switch (detectionMode) {
                                 case ODT_LIVE:
-                                    activity.startActivity(new Intent(activity, LiveObjectDetectionActivity.class));
+                                  //  activity.startActivity(new Intent(activity, LiveObjectDetectionActivity.class));
                                     break;
                                 case ODT_STATIC:
                                     activity.startActivity(new Intent(activity, CameraRecognitionActivity.class));
                                     break;
                                 case BARCODE_LIVE:
-                                    activity.startActivity(new Intent(activity, LiveBarcodeScanningActivity.class));
+                                    //activity.startActivity(new Intent(activity, LiveBarcodeScanningActivity.class));
                                     break;
                             }
                         });

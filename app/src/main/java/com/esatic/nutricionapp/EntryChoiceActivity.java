@@ -13,6 +13,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.esatic.nutricionapp.code.Main2Activity;
+import com.esatic.nutricionapp.java.CameraRecognitionActivity;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -102,8 +103,7 @@ public class EntryChoiceActivity extends AppCompatActivity {
                     Activity activity = EntryChoiceActivity.this;
                     switch (entryMode) {
                         case ENTRY_JAVA:
-                            activity.startActivity(new Intent(activity,
-                                    Main2Activity.class));
+                            activity.startActivity(new Intent(activity, CameraRecognitionActivity.class));
                             break;
                         case ENTRY_KOTLIN:
                             activity.startActivity(new Intent(activity,
