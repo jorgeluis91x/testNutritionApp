@@ -7,14 +7,12 @@
     android:layout_height="match_parent"
     tools:context=".CameraActivity">
 
-    <com.wonderkiln.camerakit.CameraView
-        android:id="@+id/camera_view"
-        android:layout_height="match_parent"
-        android:layout_width="match_parent"
-        android:keepScreenOn="true"
-        >
 
-    </com.wonderkiln.camerakit.CameraView>
+    <com.camerakit.CameraKitView
+        android:id="@+id/camera_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"/>
 
     <Button
         android:id="@+id/btn_capture"

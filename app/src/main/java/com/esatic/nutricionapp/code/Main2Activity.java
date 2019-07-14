@@ -14,6 +14,7 @@ import com.esatic.nutricionapp.LiveBarcodeScanningActivity;
 import com.esatic.nutricionapp.LiveObjectDetectionActivity;
 
 import com.esatic.nutricionapp.R;
+import com.esatic.nutricionapp.java.CameraRecognitionActivity;
 
 
 import androidx.annotation.NonNull;
@@ -117,7 +118,7 @@ public class Main2Activity extends AppCompatActivity {
                                     activity.startActivity(new Intent(activity, LiveObjectDetectionActivity.class));
                                     break;
                                 case ODT_STATIC:
-                                    Utils.openImagePicker(activity);
+                                    activity.startActivity(new Intent(activity, CameraRecognitionActivity.class));
                                     break;
                                 case BARCODE_LIVE:
                                     activity.startActivity(new Intent(activity, LiveBarcodeScanningActivity.class));
